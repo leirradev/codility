@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class MissingInteger {
 	public static void main(String[] args) {
-		int[] x = { 1, 2, 3 };
+		int[] x = { 1, 2, 3 ,4,1,2,3,5};
 		MissingInteger g = new MissingInteger();
-		System.out.println("The lowest positive integer of array in " + Arrays.toString(x) + " is: " + g.sasa(x));
+		System.out.println("The next positive integer of array in " + Arrays.toString(x) + " is: " + g.sasa(x));
 	}
 	public int sasa(int A[]) {
 		int N = A.length;
